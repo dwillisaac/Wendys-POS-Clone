@@ -46,7 +46,7 @@ public class ComboItem {
         this.comboPrice = comboPrice;
     }
 
-    public String getDescription(String description) {
+    public String getDescription() {
         return this.description;
     }
 

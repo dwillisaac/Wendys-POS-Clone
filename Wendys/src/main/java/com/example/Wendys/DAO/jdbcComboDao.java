@@ -40,7 +40,7 @@ public class jdbcComboDao implements ComboDao {
         comboItem.setComboId(rowSet.getInt(("combo_id")));
         comboItem.setComboName(rowSet.getString("combo_name"));
         comboItem.setComboPrice(rowSet.getDouble("combo_price"));
-        comboItem.getDescription(rowSet.getString("description"));
+        comboItem.setDescription(rowSet.getString("description"));
         return comboItem;
     }
 }
